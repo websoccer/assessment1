@@ -1,0 +1,44 @@
+
+body{
+  background-image: url("../images/background.jpeg");
+}
+img{
+   width: 125px; 
+   margin-bottom: 10px; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   /*Your code here*/
+}
+
+div{
+   display: grid;
+   padding: 25px; 
+   margin:5px; 
+   /* YOUR CODE HERE */
+}
+
+#mystuff {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+
+h1{
+	text-align: center;
+  text-transform: lowercase;
+}
+
+@media all and (min-width: 800px){
+
+  #mystuff {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+
+  }
+
+}
+  /*Your code here */
+  /* See documentation for desktop 
